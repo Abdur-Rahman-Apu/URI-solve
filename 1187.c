@@ -1,6 +1,6 @@
 #include<stdio.h>
 int main(){
-    double a[12][12],count=0,sum=0;
+    double a[12][12],count=0.0,sum=0.0;
     int i,j;
     char o;
     scanf("%c",&o);
@@ -19,10 +19,10 @@ int main(){
             }
         }
         if(o=='S'){
-            printf("%lf\n",sum);
+            printf("%.1lf\n",sum);
         }
         if(o=='M'){
-            printf("%lf\n",sum/count);
+            printf("%.1lf\n",sum/count);
         }
 
 }
